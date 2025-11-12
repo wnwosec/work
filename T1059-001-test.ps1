@@ -5,9 +5,9 @@ Write-Host "╚═════════════════════�
 Write-Host ""
 
 # 시스템 정보 수집 (악성 행위 없음)
-Write-Host "[+] Execution Success!" -ForegroundColor Green
-Write-Host "[i] Test Type: Command and Scripting Interpreter: PowerShell" -ForegroundColor Yellow
-Write-Host "[i] MITRE ATT&CK ID: T1059.001" -ForegroundColor Yellow
+Write-Host ">>> Execution Success!" -ForegroundColor Green
+Write-Host ">>> Test Type: Command and Scripting Interpreter: PowerShell" -ForegroundColor Yellow
+Write-Host ">>> MITRE ATT CK ID: T1059.001" -ForegroundColor Yellow
 Write-Host ""
 
 # 환경 정보
@@ -23,12 +23,12 @@ Write-Host ""
 # 실행 컨텍스트
 Write-Host "=== Execution Context ===" -ForegroundColor Magenta
 Write-Host "Current Directory: $(Get-Location)"
-Write-Host "Script Executed via: IEX + DownloadString"
+Write-Host "Script Executed via: IEX and DownloadString"
 Write-Host "Download Source: GitHub Raw URL"
 Write-Host ""
 
-Write-Host "[✓] Test completed successfully - No malicious actions performed" -ForegroundColor Green
-Write-Host "[!] This script is for security testing and detection rule validation only" -ForegroundColor Yellow
+Write-Host ">>> Test completed successfully - No malicious actions performed" -ForegroundColor Green
+Write-Host ">>> This script is for security testing and detection rule validation only" -ForegroundColor Yellow
 ```
 
 ---
